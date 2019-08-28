@@ -1,0 +1,29 @@
+body {
+    background: #242582;
+}
+.container {
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+}
+.score {
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+}
+.box {
+    font-family: 'Roboto Slab', serif;
+    color: whitesmoke;
+}
+.images {
+    font-family: 'Roboto Slab', serif;
+    padding: 50px;
+    color: whitesmoke;
+
+}
+.crystal {
+    height: 100px;
+    widows: 100px;
+    background: lightpink;
+}
+.dasher {
+    background: lightpink;
+}
