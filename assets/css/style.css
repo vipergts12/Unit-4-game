@@ -1,5 +1,7 @@
 body {
     background: #242582;
+    font-family: 'Satisfy', cursive;
+
 }
 .container {
     font-family: 'Roboto Slab', serif;
@@ -26,4 +28,15 @@ body {
 }
 .dasher {
     background: lightpink;
+}
+#counter {
+    border: 5px solid black;
+    width: 150px;
+    position: relative;
+}
+.score {
+    padding-left: 2rem;
+}
+.box {
+    padding-left: 2rem;
 }
