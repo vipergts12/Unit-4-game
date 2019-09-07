@@ -1,4 +1,40 @@
-body {
+body{
+    background: rgb(223, 139, 223);
+}
+h2 {
+    text-align: center; 
+}
+.crystals {
+    display: flex;
+    justify-content: space-around;
+}
+
+.crystal{
+    border:1px solid red;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 2s;
+}
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+img {
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+/* body {
     background: #242582;
     font-family: 'Satisfy', cursive;
 
@@ -39,4 +75,4 @@ body {
 }
 .box {
     padding-left: 2rem;
-}
+} */
